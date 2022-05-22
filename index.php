@@ -79,8 +79,8 @@ if	(empty($_POST["check1"])){
 if($errors){
 	exit();
 }
-$user = 'u47749';
-$pass = '2224452';
+$user = 'u47646';
+$pass = '1856207';
 $db = new PDO('mysql:host=localhost;dbname=u47646', $user, $pass,
 array(PDO::ATTR_PERSISTENT => true));
 try {
